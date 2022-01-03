@@ -1,0 +1,223 @@
+body{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex: 0 0 380px;
+}
+
+main{
+    display: flex;
+    flex: 2;
+    background-color: #d5f5d1;
+}
+
+footer{
+    flex: 0 0 50px;
+    background-color: #000000;
+    display: flex;
+    color: #ffffff;
+}
+
+.header_inf{
+    display: flex;
+    flex-direction:column;
+}
+
+.header_inf, 
+section{
+    flex: 1;
+}
+
+.fotos, 
+aside,
+.git{
+    flex: 0 0 300px;
+}
+
+header h1{
+    font-size: 40px;
+    width: 300px;
+    color: #008656;
+}
+
+header p{
+    width: 550px;
+    font-size: 18px;
+    background-color: rgb(248, 246, 246);
+    padding: 10px 40px 10px 10px;
+}
+
+header a{
+    padding: 10px 30px 10px 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+header a:hover{
+    background-color: #d5f5d1;
+    font-weight: 600;
+}
+
+.fio{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    flex-direction:column;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 90px;
+}
+
+nav ul{
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+
+nav li{
+    float: left;
+}
+
+header img{
+    display: block;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    min-height: 25px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.tele{
+    background-image: url(img/icons8-tele.png);
+}
+
+.post{
+    background-image: url(img/icons8-post.png);
+}
+
+.geo{
+    background-image: url(img/icons8-geo.png);
+}
+
+aside h2,
+ul{
+    padding-left: 20px;
+}
+
+.html{
+    background-image: url(img/icons8-html.png);
+}
+
+.css{
+    background-image: url(img/icons8-css3.png);
+}
+
+.javascript{
+    background-image: url(img/icons8-javascript.png);
+}
+
+.github{
+    background-image: url(img/icons8-github.png);
+}
+
+.php{
+    background-image: url(img/icons8-php.png);
+}
+
+aside{
+    margin-top: 40px;
+    border-left: 2px solid black;
+}
+
+.contacts{
+    margin-top: -20px;
+}
+
+sup{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+section{
+    padding: 0 40px 20px 40px;
+}
+
+hr{
+    margin-top: -10px;;
+    border: 1px solid black;
+    border-bottom-width: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+pre{
+    font-size: 14px;
+    margin-left: -100px;
+    background-color: rgb(230, 230, 230);
+}
+
+.Languages p{
+    margin: 5px;
+}
+
+.rs_school img{
+    height: 40px;
+    width: 90px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.git img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+footer sup{
+    font-size: 40px;
+}
+
+.rs_school{
+    flex: 1;
+}
+
+.projects a{
+    display: block;
+    border: 1px solid black;
+    padding: 50px 75px 50px 75px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.task{
+    display: flex;
+}
